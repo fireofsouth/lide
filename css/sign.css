@@ -1,0 +1,31 @@
+.sign-info {
+    padding: 1em;
+}
+
+.sign-info .form-group {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.sign-info label {
+    display: inline-block;
+    text-align: right;
+}
+
+.sign-info input[type="text"] {
+    display: inline-block;
+    height: 30px;
+    padding: 4px 6px;
+    margin-left: 20px;
+    border: 1px solid rgb(236, 235, 241);
+    border-radius: 5px;
+}
+
+.sign-info textarea {
+    outline: none;
+    padding: 4px 6px;
+    margin-left: 20px;
+    border: 1px solid rgb(236, 235, 241);
+    border-radius: 5px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>lide Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sign.css">
+</head>
+
+<body>
+    <header>
+        <i onclick="javascript: history.back()" class="iconfont icon-back header-left"></i>
+        <h3>活动报名</h3>
+    </header>
+    <div class="content">
+        <form action="#" class="sign-info" method="post">
+            <div class="form-group">
+                <label for="name" class="col-sm-2">姓名:</label>
+                <input type="text" name="name" id="name" class="col-sm-10" required>
+            </div>
+            <div class="form-group">
+                <label for="telphone" class="col-sm-2">电话:</label>
+                <input type="text" name="telphone" id="telephone" class="col-sm-10" required>
+            </div>
+            <div class="form-group">
+                <label for="number" class="col-sm-2">人数:</label>
+                <input type="text" name="number" id="number" class="col-sm-10" required>
+            </div>
+            <div class="form-group">
+                <label for="school" class="col-sm-2">学校:</label>
+                <input type="text" name="school" id="school" class="col-sm-10">
+            </div>
+            <div class="form-group">
+                <label for="message" class="col-sm-2">留言:</label>
+                <textarea class="col-sm-10" name="message" id="message" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value='报名' class="col-sm-12 btn active">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="col-sm-6">
+            <a href="index.html" class="active btn"><i class="iconfont icon-activity"></i> 活动</a>
+        </div>
+        <div class="col-sm-6">
+            <a href="mine.html" class="btn"><i class="iconfont icon-mine"></i> 我</a>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>lide Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <h3>励德畅亚文化</h3>
+    </header>
+    <div class="mask" id="mask"></div>
+    <div class="content">
+        <div class="panel">
+            <div class="search-box col-sm-10">
+                <div class="col-sm-9">
+                    <i class="iconfont icon-search"></i>&nbsp;
+                    <input type="search" name="search-text" id="search-text" placeholder="搜索活动">
+                </div>
+                <span class="search-btn">搜索</span>
+            </div>
+            <div class="options">
+                <a href="#" id="city" class="col-sm-5"> <i class="iconfont icon-menu"></i>&nbsp;<span id="cityContent">城市</span></a>
+                <a href="#" id="school" class="col-sm-7"><i class="iconfont icon-menu"></i>&nbsp;<span id="schoolContent">学校</span></a>
+            </div>
+        </div>
+        <article>
+            <ul id="activity-list" class="listview">
+                <li data-activity = "1">
+                    <div class="activity">
+                        <img src="img/plane.jpg" alt="plane">
+                        <div class="describe">
+                            <p><strong>标题：篮球比赛</strong></p>
+                            <p>类型：体育竞技</p>
+                            <p>时间：2016.4.9 18:00~20:00</p>
+                            <p>地点：体育场</p>
+                            <p>学校：北京邮电大学</p>
+                            <p>城市：北京</p>
+                            <p>招募：100人观众</p>
+                        </div>
+                    </div>
+                </li>
+                <li data-activity = "2">
+                    <div class="activity">
+                        <img src="img/plane.jpg" alt="plane">
+                        <div class="describe">
+                            <p><strong>标题：篮球比赛</strong></p>
+                            <p>类型：体育竞技</p>
+                            <p>时间：2016.4.9 18:00~20:00</p>
+                            <p>地点：体育场</p>
+                            <p>学校：北京邮电大学</p>
+                            <p>城市：北京</p>
+                            <p>招募：100人观众</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="activity">
+                        <img src="img/plane.jpg" alt="plane">
+                        <div class="describe">
+                            <p><strong>标题：篮球比赛</strong></p>
+                            <p>类型：体育竞技</p>
+                            <p>时间：2016.4.9 18:00~20:00</p>
+                            <p>地点：体育场</p>
+                            <p>学校：北京邮电大学</p>
+                            <p>城市：北京</p>
+                            <p>招募：100人观众</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="activity">
+                        <img src="img/plane.jpg" alt="plane">
+                        <div class="describe">
+                            <p><strong>标题：篮球比赛</strong></p>
+                            <p>类型：体育竞技</p>
+                            <p>时间：2016.4.9 18:00~20:00</p>
+                            <p>地点：体育场</p>
+                            <p>学校：北京邮电大学</p>
+                            <p>城市：北京</p>
+                            <p>招募：100人观众</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </article>
+        <a href="" class="btn">查看更多 </a>
+    </div>
+    <footer>
+        <div class="col-sm-6">
+            <a href="index.html" class="active btn"><i class="iconfont icon-activity"></i> 活动</a>
+        </div>
+        <div class="col-sm-6">
+            <a href="mine.html" class="btn"><i class="iconfont icon-mine"></i> 我</a>
+        </div>
+    </footer>
+
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#activity-list li").click(function() {
+                // alert($(this).attr("data-activity"));
+                location.href = "detail.html";
+            });
+        });
+    </script>
+</body>
+
+</html>
