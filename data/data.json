@@ -1,0 +1,5 @@
+{
+    "data": [{ "id": 5, "src": "img/plane.jpg", "title": "NBA", "type": "体育竞技", "time": "2016.4.9 18:00~20:00", "place": "体育场", "school": "北京邮电大学", "city": "北京", "recruit": "100人观众" },
+        { "id": 5, "src": "img/plane.jpg", "title": "NBA", "type": "体育竞技", "time": "2016.4.9 18:00~20:00", "place": "体育场", "school": "北京邮电大学", "city": "北京", "recruit": "100人观众" }
+    ]
+}

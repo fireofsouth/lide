@@ -31,7 +31,7 @@
         </div>
         <article>
             <ul id="activity-list" class="listview">
-                <li data-activity = "1">
+                <li data-activity="1">
                     <div class="activity">
                         <img src="img/plane.jpg" alt="plane">
                         <div class="describe">
@@ -45,7 +45,7 @@
                         </div>
                     </div>
                 </li>
-                <li data-activity = "2">
+                <li data-activity="2">
                     <div class="activity">
                         <img src="img/plane.jpg" alt="plane">
                         <div class="describe">
@@ -89,7 +89,7 @@
                 </li>
             </ul>
         </article>
-        <a href="" class="btn">查看更多 </a>
+        <a href="#" class="btn" id="more">查看更多 </a>
     </div>
     <footer>
         <div class="col-sm-6">
@@ -99,17 +99,8 @@
             <a href="mine.html" class="btn"><i class="iconfont icon-mine"></i> 我</a>
         </div>
     </footer>
-
     <script src="js/jquery-2.2.3.min.js"></script>
     <script src="js/index.js"></script>
-    <script>
-        $(document).ready(function() {
-            $("#activity-list li").click(function() {
-                // alert($(this).attr("data-activity"));
-                location.href = "detail.html";
-            });
-        });
-    </script>
 </body>
 
 </html>
